@@ -1,5 +1,9 @@
-# neurolab-conda
+# Sensor fault detection project pipeline creation using kafka
 
-Command to run demo.py file:
+We have a large dataset of sensors reading.
+To simulate real time sensor's data creation in kafka streaming,
+data has benn pushed to kafka straming by producer_main.py.
 
-`python demo.py`
+To store the stareaming data in the mongo DB comsumer_main.py has been written.
+
+
